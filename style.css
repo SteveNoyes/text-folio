@@ -1,12 +1,48 @@
-#game-container {
-    width: 80%;
-    margin: 0 auto;
-    text-align: center;
-    font-size: 24px;
-}
-
-button {
-    padding: 10px 20px;
+body{
+    text-align:center;
+    background-color: black;
+  }
+  h3{
+    font-family: kreon;
+    color: lightgrey;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+  }
+  li {
+    font-family: kalam;
     font-size: 20px;
-    margin-top: 20px;
-}
+    color: lightgrey;
+  }
+  .well {
+    background: none;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: double;
+    border-color: grey;
+    border-width: 5px;
+    border-radius: 20px;
+  }
+  #input{
+    padding:5px;
+    width: 300px;
+    background: none;
+    color: white;
+    border-radius: 20px;
+    font-family: kreon;
+    text-align: center;
+  }
+  .pad{
+    padding:30px;
+  }
+  #submit{
+    color:black;
+    background-color: grey;
+    border-color:lightgrey;
+    border-radius: 5px;
+    width: 100px;
+    font-family: acme;
+    font-size: 20px;
+  }

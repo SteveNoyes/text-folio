@@ -2,15 +2,27 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Acme|Kalam|Kreon" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <title>text folio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="game-container">
-        <p>You wake up in an empty room with a key lying on the floor.</p>
-        <p>What do you want to do?</p>
-        <button onclick="pickupKey()">Pick up the key</button>
+    <h3 id="story"></h3>
+    <img></img>
+    <ul class="choices well">
+        <li id ="option1">
+        <li id ="option2">
+        <li id ="option3"></li>
+    </ul>
+    <div class="pad">
+    <input id="input"></input>
     </div>
+    <button class="btn btn-primary" id="submit">GO</button>
+
     <script src="script.js"></script>
 </body>
 </html>
